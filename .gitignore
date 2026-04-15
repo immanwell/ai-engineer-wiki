@@ -1,0 +1,11 @@
+# Obsidian
+.obsidian/
+*.md.bak
+.trash/
+
+# System
+.DS_Store
+
+# Editor
+*.swp
+*.swo
