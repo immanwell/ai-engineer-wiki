@@ -17,3 +17,12 @@ Append-only record of all wiki operations.
 **Updated**: `wiki/index.md` with all new pages and one-line descriptions
 
 **Emphasis**: Domains 1–3 (Agentic Architecture 40%, Tool Design & MCP 30%, Claude Code 20%) given highest depth per user request.
+
+## 2026-04-16
+
+**Source ingested**: `paperclip-agent-orchestrator.md` (YouTube, @steipete, summarized via summarize CLI)
+
+**Pages created**:
+- `agent-orchestration-patterns.md` — Hierarchical delegation (org chart), human control plane, QA review gates, reusable routines, skills auto-discovery. Uses Paperclip as concrete case study.
+
+**Updated**: `wiki/index.md` with new page and one-line description

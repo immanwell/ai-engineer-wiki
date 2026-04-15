@@ -9,6 +9,7 @@ A curated knowledge base for the Claude Certified Architect – Foundations exam
 ## Core Domains
 
 - [[agentic-architecture]] — 40% of exam — Multi-agent systems, tool use, context management
+- [[agent-orchestration-patterns]] — Case studies in hierarchical delegation, human control plane, QA gates, routines
 - [[tool-design-mcp]] — 30% of exam — MCP protocol, tool design patterns
 - [[claude-code]] — 20% of exam — CLI tool, hooks, git workflow, MCP integration
 
