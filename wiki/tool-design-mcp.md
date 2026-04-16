@@ -129,4 +129,4 @@ Expected to understand:
 
 - [[agentic-architecture]] — how agents use tools
 - [[claude-code]] — MCP configuration in Claude Code
-- [[tool-design-mcp]] — MCP for your own infrastructure
+- [[agent-orchestration-patterns]] — how orchestration uses tools in multi-agent workflows

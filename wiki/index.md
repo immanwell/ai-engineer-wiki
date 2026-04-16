@@ -1,3 +1,15 @@
+---
+title: "LLM Wiki Index"
+tags:
+  - wiki
+  - index
+domain: certification
+status: stable
+confidence: high
+date_created: 2026-04-15
+date_modified: 2026-04-16
+---
+
 # LLM Wiki — Index
 
 A curated knowledge base for the Claude Certified Architect – Foundations exam.

@@ -1,3 +1,15 @@
+---
+title: "LLM Wiki Log"
+tags:
+  - wiki
+  - log
+domain: certification
+status: stable
+confidence: high
+date_created: 2026-04-15
+date_modified: 2026-04-16
+---
+
 # LLM Wiki — Log
 
 Append-only record of all wiki operations.
