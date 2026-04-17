@@ -6,10 +6,11 @@ tags:
 domain: certification
 status: stable
 confidence: high
-date_created: 2026-04-15
-date_modified: 2026-04-16
 ---
+Created: Friday, 15 April 2026, 12:13
+Modified: `=dateformat(this.file.mtime, "DDDD, HH:mm")`
 
+---
 # LLM Wiki — Log
 
 Append-only record of all wiki operations.
@@ -32,9 +33,30 @@ Append-only record of all wiki operations.
 
 ## 2026-04-16
 
-**Source ingested**: `paperclip-agent-orchestrator.md` (YouTube, @steipete, summarized via summarize CLI)
+**Source ingested**: `anthropic-agents-to-skills.md` (YouTube, dotta, summarized via summarize CLI)
+
+**Pages created**:
+- `skills-anthropic.md` — Skills as organized knowledge collections, progressive disclosure design, skills + MCP architecture, computing stack analogy, organizational compounding
+- `agent-vs-expert-problem.md` — The gap between agent intelligence and domain expertise that skills aim to fill
+
+**Updated**: `wiki/index.md` with new pages and one-line descriptions
+
+**Source ingested**: `paperclip-agent-orchestrator.md` (YouTube, dotta, summarized via summarize CLI)
 
 **Pages created**:
 - `agent-orchestration-patterns.md` — Hierarchical delegation (org chart), human control plane, QA review gates, reusable routines, skills auto-discovery. Uses Paperclip as concrete case study.
 
 **Updated**: `wiki/index.md` with new page and one-line description
+
+## 2026-04-17
+
+**Source ingested**: `mihail-eric-junior-engineers-crisis.md` (YouTube, Stanford talk by Mihail Eric, summarized via summarize CLI)
+
+**Pages created**:
+- `mihail-eric-junior-engineers-crisis.md` — Main summary: perfect storm facing junior devs, AI-native engineer profile, agent-friendly codebase principles
+- `ai-native-engineer.md` — Context switching across agents, building one workflow at a time before scaling
+- `agent-friendly-codebase.md` — Tests as contracts, README-code consistency, error compounding warnings
+- `junior-engineer-advantage.md` — "Good naivety" and healthy arrogance as structural AI adoption advantages
+- `software-taste.md` — "The last mile" where taste develops after functional correctness
+
+**Updated**: `wiki/index.md` with all new pages and one-line descriptions

@@ -11,15 +11,16 @@ sources:
   - "instructor-8lsy243ftffjjy1cx9lm3o2bw-public-1773274827-Claude+Certified+Architect+–+Foundations+Certification+Exam+Guide.pdf"
 status: stable
 confidence: high
-date_created: 2026-04-15
-date_modified: 2026-04-15
 ---
+Created: Friday, 15 April 2026, 18:54
+Modified: `=dateformat(this.file.mtime, "DDDD, HH:mm")`
 
+---
 # Prompt Engineering
 
 **Summary**: The practice of crafting inputs to language models to reliably produce desired outputs. Covers techniques for instruction clarity, context management, output formatting, and controlling model behavior.
 
-**Sources**: (source: instructor-8lsy243ftffjjy1cx9lm3o2bw-public-1773274827-Claude+Certified+Architect+–+Foundations+Certification+Exam+Guide.pdf)
+**Sources**: [[raw/instructor-8lsy243ftffjjy1cx9lm3o2bw-public-1773274827-Claude+Certified+Architect+–+Foundations+Certification+Exam+Guide.pdf|architect exam guide]]
 
 ---
 

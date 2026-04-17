@@ -1,7 +1,7 @@
 ---
 source: https://youtu.be/h403btjldDQ
 title: "What is Paperclip?"
-author: @steipete
+author: dotta
 date: 2026-04-16
 tool: summarize
 ---

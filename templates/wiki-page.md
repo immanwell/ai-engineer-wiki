@@ -9,15 +9,16 @@ sources:
   - "{{source_file}}"
 status: stub
 confidence: low
-date_created: "{{date}}"
-date_modified: "{{date}}"
 ---
+Created: {{Date & Time}}
+Modified: `=dateformat(this.file.mtime, "DDDD, HH:mm")`
 
+---
 # {{title}}
 
 **Summary**: One or two sentences describing this concept.
 
-**Sources**: (source: {{source_file}})
+**Sources**: [[raw/{{source_file}}|{{source_file}}]]
 
 ---
 

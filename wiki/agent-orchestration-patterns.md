@@ -12,15 +12,16 @@ sources:
   - "paperclip-agent-orchestrator.md"
 status: stable
 confidence: medium
-date_created: 2026-04-16
-date_modified: 2026-04-16
 ---
+Created: Friday, 16 April 2026, 23:11
+Modified: `=dateformat(this.file.mtime, "DDDD, HH:mm")`
 
+---
 # Agent Orchestration Patterns
 
 **Summary**: Patterns for coordinating multiple AI agents to complete complex tasks, including hierarchical delegation, human-in-the-loop oversight, and vendor-neutral workflow composition.
 
-**Sources**: (source: paperclip-agent-orchestrator.md)
+**Sources**: [[raw/paperclip-agent-orchestrator.md|paperclip agent orchestrator]]
 
 ---
 
@@ -44,7 +45,7 @@ The CEO agent knows how to hire new agents and install new skills — it can gro
 
 **Contrast with flat multi-agent systems**: Rather than all agents being equal peers, the hierarchy provides clear ownership, accountability, and natural task routing.
 
-**Paperclip example**: The creator ("steipete") created an issue for a Remotion video, assigned it to the CEO agent, which then hired a video writer and installed the Remotion best practices skill. The CEO coordinated without the human needing to manage individual contributors directly.
+**Paperclip example**: The creator ("dotta") created an issue for a Remotion video, assigned it to the CEO agent, which then hired a video writer and installed the Remotion best practices skill. The CEO coordinated without the human needing to manage individual contributors directly.
 
 ### Human Control Plane
 

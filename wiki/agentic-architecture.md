@@ -12,15 +12,16 @@ sources:
   - "instructor-8lsy243ftffjjy1cx9lm3o2bw-public-1773274827-Claude+Certified+Architect+–+Foundations+Certification+Exam+Guide.pdf"
 status: stable
 confidence: high
-date_created: 2026-04-15
-date_modified: 2026-04-15
 ---
+Created: Friday, 15 April 2026, 22:32
+Modified: `=dateformat(this.file.mtime, "DDDD, HH:mm")`
 
+---
 # Agentic Architecture
 
 **Summary**: Designing systems where AI agents autonomously plan, reason, and execute tasks across multiple steps, often using structured outputs, nested requests, and multi-turn conversations to accomplish complex goals.
 
-**Sources**: (source: instructor-8lsy243ftffjjy1cx9lm3o2bw-public-1773274827-Claude+Certified+Architect+–+Foundations+Certification+Exam+Guide.pdf)
+**Sources**: [[raw/instructor-8lsy243ftffjjy1cx9lm3o2bw-public-1773274827-Claude+Certified+Architect+–+Foundations+Certification+Exam+Guide.pdf|architect exam guide]]
 
 ---
 

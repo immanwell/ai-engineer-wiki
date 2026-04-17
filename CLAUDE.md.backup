@@ -5,8 +5,7 @@ Based on Andrej Karpathy's LLM Wiki pattern.
 
 ## Purpose
 
-This wiki is a structured, interlinked knowledge base for passing the Claude Certified Architect – Foundations exam and building foundational AI engineering knowledge along the way. The exam domains are: `agentic-architecture`, `tool-design-mcp`, `claude-code`, `prompt-engineering`, and`context-reliability`.
-
+This wiki is a structured, interlinked knowledge base for all i need to learn to be an AI Engineer in preparation to passing the Claude Certified Architect – Foundations Certification Exam (https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request).
 Claude maintains the wiki. The human curates sources, asks questions, and guides the analysis.
 
 ## Folder structure
@@ -29,9 +28,6 @@ When the user adds a new source to `raw/` and asks you to ingest it:
 5. Add wiki-links ([[page-name]]) to connect related pages
 6. Update `wiki/index.md` with new pages and one-line descriptions
 7. Append an entry to `wiki/log.md` with the date, source name, and what changed
-8. To read PDFs in the raw/ folder, use the Read tool on the file path.
-9. For YouTube URLs, run `summarize "URL" --youtube auto` first and save to `raw/
-10. For exam-domain source files (agentic-architecture, tool-design-mcp, claude-code, prompt-engineering, context-reliability), generate Anki cards using Template 1 (Question, Answer, Topic). Save as `ASSETS/[CertName]-[PageName]-TechnicalConcepts-YYYY-MM-DD.csv` using commas as the delimiter. **Do not include a header row** — start directly with the first question. One CSV per source file.
 
 A single source may touch 10-15 wiki pages. That is normal.
 
@@ -39,12 +35,31 @@ A single source may touch 10-15 wiki pages. That is normal.
 
 Every wiki page should follow this structure:
 
-Before creating any wiki page, read `templates/wiki-page.md` and use it as the base structure. Fill in all frontmatter fields — do not leave placeholder values like {{title}}, {{source_file}} in the final file.
+```markdown
+# Page Title
+
+**Summary**: One to two sentences describing this page.
+
+**Sources**: List of raw source files this page draws from.
+
+**Last updated**: Date of most recent update.
+
+---
+
+Main content goes here. Use clear headings and short paragraphs.
+
+Link to related concepts using [[wiki-links]] throughout the text.
+
+## Related pages
+
+- [[related-concept-1]]
+- [[related-concept-2]]
+```
 
 ## Citation rules
 
 - Every factual claim should reference its source file
-- Use the format `[[raw/filename.ext|display text]]` for clickable wiki-links to raw source files
+- Use the format (source: filename.pdf) after the claim
 - If two sources disagree, note the contradiction explicitly
 - If a claim has no source, mark it as needing verification
 
@@ -78,7 +93,3 @@ When the user asks you to lint or audit the wiki:
 - Keep page names lowercase with hyphens (e.g. `machine-learning.md`)
 - Write in clear, plain language
 - When uncertain about how to categorize something, ask the user
-- Author tags in frontmatter should be plain usernames without the @ symbol (e.g., `author: dotta` not `author: @steipete`)
-- Run `date "+%A, %-d %B %Y, %H:%M"` via Bash tool to get the current datetime before creating any wiki page
-- Never move or modify the "Modified" formula
-- The {{Date and Time}} should be in the following format: "dddd, Do MMMM YYYY, HH:mm" eg Monday, May 13, 1956, 01:20 reflecting the current day of the week, month, date, year and time the document is created and this is never changed again

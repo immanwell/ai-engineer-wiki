@@ -9,3 +9,6 @@
 # Editor
 *.swp
 *.swo
+
+# Generated Anki decks
+ASSETS/

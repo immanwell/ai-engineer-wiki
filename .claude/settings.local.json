@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/em/obsidian-vaults/ai-engineer-wiki status)",
+      "Bash(git add:*)",
+      "Bash(summarize \"https://youtu.be/CEvIs9y1uog?si=PlhS6D_fy_QUtxKA\" --youtube auto)",
+      "Bash(npx skills:*)",
+      "WebSearch",
+      "Bash(summarize \"https://youtu.be/wEsjK3Smovw\" --youtube auto)",
+      "Bash(echo \"Command failed with exit code $?\")"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "shadcn"
+  ]
+}

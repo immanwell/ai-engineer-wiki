@@ -13,15 +13,16 @@ sources:
   - "instructor-8lsy243ftffjjy1cx9lm3o2bw-public-1773274827-Claude+Certified+Architect+–+Foundations+Certification+Exam+Guide.pdf"
 status: stable
 confidence: high
-date_created: 2026-04-15
-date_modified: 2026-04-15
 ---
+Created: Friday, 15 April 2026, 13:18
+Modified: `=dateformat(this.file.mtime, "DDDD, HH:mm")`
 
+---
 # Context Reliability
 
 **Summary**: Ensuring AI systems remain accurate and efficient as conversations grow long and context windows fill up. Covers token budget management, cache optimization, and context truncation strategies.
 
-**Sources**: (source: instructor-8lsy243ftffjjy1cx9lm3o2bw-public-1773274827-Claude+Certified+Architect+–+Foundations+Certification+Exam+Guide.pdf)
+**Sources**: [[raw/instructor-8lsy243ftffjjy1cx9lm3o2bw-public-1773274827-Claude+Certified+Architect+–+Foundations+Certification+Exam+Guide.pdf|architect exam guide]]
 
 ---
 

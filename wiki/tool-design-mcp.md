@@ -14,15 +14,16 @@ sources:
   - "instructor-8lsy243ftffjjy1cx9lm3o2bw-public-1773274827-Claude+Certified+Architect+–+Foundations+Certification+Exam+Guide.pdf"
 status: stable
 confidence: high
-date_created: 2026-04-15
-date_modified: 2026-04-15
 ---
+Created: Friday, 15 April 2026, 10:24
+Modified: `=dateformat(this.file.mtime, "DDDD, HH:mm")`
 
+---
 # Tool Design & MCP
 
 **Summary**: The Model Context Protocol (MCP) is Anthropic's standard for connecting AI models to external tools, data sources, and services. Tool design covers how to build effective tools that agents can invoke reliably.
 
-**Sources**: (source: instructor-8lsy243ftffjjy1cx9lm3o2bw-public-1773274827-Claude+Certified+Architect+–+Foundations+Certification+Exam+Guide.pdf)
+**Sources**: [[raw/instructor-8lsy243ftffjjy1cx9lm3o2bw-public-1773274827-Claude+Certified+Architect+–+Foundations+Certification+Exam+Guide.pdf|architect exam guide]]
 
 ---
 
@@ -39,7 +40,7 @@ MCP servers and clients communicate over JSON-RPC 2.0, typically via stdio or HT
 
 ```
 ┌─────────────┐     MCP Protocol      ┌──────────────┐
-│   MCP Host  │◄────────────────────►│  MCP Server   │
+│   MCP Host  │◄─────────────────────►│  MCP Server  │
 │ (Claude     │                       │ (your tool   │
 │  Code, API) │                       │  server)     │
 └─────────────┘                       └──────────────┘
