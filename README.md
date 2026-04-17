@@ -4,7 +4,7 @@ A personal knowledge base for building foundational AI engineering knowledge, ma
 
 ## Purpose
 
-This wiki follows the [LLM Wiki](https://karpathy.github.io/2019/04/19/llm_wiki/) pattern pioneered by Andrej Karpathy. It serves as both:
+This wiki follows the [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) pattern pioneered by Andrej Karpathy. It serves as both:
 
 - A structured study companion for the **Claude Certified Architect – Foundations** exam
 - A growing reference for AI engineering best practices
