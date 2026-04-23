@@ -45,4 +45,7 @@ A curated knowledge base for the Claude Certified Architect – Foundations exam
 - [[ai-engineering-vs-ml-engineering]] — Model as component, probabilistic evaluation, human-AI interaction
 - [[generative-ai-use-cases]] — Table 1-3: 8 categories consumer vs enterprise
 - [[ai-tutor]] — Product concept: UG mathematics tutor with NCDC curriculum moat
+- [[socratic-tutoring]] — Teaching method: guide students to answers, never give them away
+- [[pocock-software-fundamentals]] — Software fundamentals beat AI hype: feedback loops, deep modules, ubiquitous language
+- [[deep-modules]] — Ousterhout's architecture ideal for AI: simple interfaces, tested boundaries, gray-box internals
 - [[tax-preparer]] — Product concept: UG tax assistant with URA regulations moat

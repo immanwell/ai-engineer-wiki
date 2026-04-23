@@ -9,7 +9,8 @@
       "Bash(summarize \"https://youtu.be/wEsjK3Smovw\" --youtube auto)",
       "Bash(echo \"Command failed with exit code $?\")",
       "WebFetch(domain:minimax-algeng-chat-tts-us.oss-us-east-1.aliyuncs.com)",
-      "Bash(convert screenshot.png -resize 1200x800 -quality 85 screenshot.png)"
+      "Bash(convert screenshot.png -resize 1200x800 -quality 85 screenshot.png)",
+      "Bash(summarize:*)"
     ]
   },
   "enableAllProjectMcpServers": true,

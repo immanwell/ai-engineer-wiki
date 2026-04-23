@@ -61,6 +61,8 @@ Append-only record of all wiki operations.
 
 **Updated**: `wiki/index.md` with all new pages and one-line descriptions
 
+**Also**: Created `socratic-tutoring.md` — linked from `ai-tutor` and `index.md`
+
 ## 2026-04-23
 
 **Source ingested**: `AI Engineer Chapter 1 (Chip Huyen, 2025).md` (GitHub chapter-summaries.md, Chip Huyen)
@@ -74,3 +76,13 @@ Append-only record of all wiki operations.
 - `tax-preparer.md` — Product concept: UG tax assistant with URA regulations moat
 
 **Updated**: `wiki/index.md` with all new pages and one-line descriptions
+
+## 2026-04-23 (Evening)
+
+**Source ingested**: `Matt Pocock Software Fundamentals AI Age (2025).md` (YouTube, Matt Pocock, summarized via summarize CLI)
+
+**Pages created**:
+- `pocock-software-fundamentals.md` — Core thesis: bad code is most expensive in AI workflows, 6 failure modes, deep modules, feedback loops
+- `deep-modules.md` — Ousterhout's deep module architecture as ideal for AI: simple interfaces, tested boundaries
+
+**Updated**: `wiki/index.md` with new pages and one-line descriptions
