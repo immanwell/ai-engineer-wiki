@@ -1,5 +1,7 @@
 # AI Engineer Wiki
 
+![AI Engineer Wiki in Obsidian](ASSETS/screenshot.png)
+
 A personal knowledge base for building foundational AI engineering knowledge, maintained by Claude Code.
 
 ## Purpose

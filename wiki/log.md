@@ -60,3 +60,17 @@ Append-only record of all wiki operations.
 - `software-taste.md` — "The last mile" where taste develops after functional correctness
 
 **Updated**: `wiki/index.md` with all new pages and one-line descriptions
+
+## 2026-04-23
+
+**Source ingested**: `AI Engineer Chapter 1 (Chip Huyen, 2025).md` (GitHub chapter-summaries.md, Chip Huyen)
+
+**Pages created**:
+- `ai-engineering-ch1.md` — Main summary: evolution arc, AI engineering as discipline, pre-build question
+- `ai-engineering-discipline.md` — Discipline framing vs toolbox, framework for overwhelm, should-you-build-it
+- `ai-engineering-vs-ml-engineering.md` — Model as component, probabilistic evaluation, human-AI interaction as product
+- `generative-ai-use-cases.md` — Table 1-3: 8 categories consumer vs enterprise
+- `ai-tutor.md` — Product concept: UG mathematics tutor with NCDC curriculum moat
+- `tax-preparer.md` — Product concept: UG tax assistant with URA regulations moat
+
+**Updated**: `wiki/index.md` with all new pages and one-line descriptions

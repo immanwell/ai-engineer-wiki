@@ -40,3 +40,9 @@ A curated knowledge base for the Claude Certified Architect – Foundations exam
 - [[agent-friendly-codebase]] — Tests as contracts, documentation consistency, error compounding
 - [[junior-engineer-advantage]] — "Good naivety" and healthy arrogance as AI adoption strengths
 - [[software-taste]] — "The last mile" differentiator in software quality
+- [[ai-engineering-ch1]] — Chip Huyen Ch1: intro to AI engineering as a discipline
+- [[ai-engineering-discipline]] — Discipline framing vs toolbox — judgment calls, not just tools
+- [[ai-engineering-vs-ml-engineering]] — Model as component, probabilistic evaluation, human-AI interaction
+- [[generative-ai-use-cases]] — Table 1-3: 8 categories consumer vs enterprise
+- [[ai-tutor]] — Product concept: UG mathematics tutor with NCDC curriculum moat
+- [[tax-preparer]] — Product concept: UG tax assistant with URA regulations moat
