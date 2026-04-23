@@ -86,3 +86,5 @@ Append-only record of all wiki operations.
 - `deep-modules.md` — Ousterhout's deep module architecture as ideal for AI: simple interfaces, tested boundaries
 
 **Updated**: `wiki/index.md` with new pages and one-line descriptions
+
+**Also**: Added workflow patterns section to `claude-code.md` — plan mode workflow, phased planning, context preservation via GitHub issues, memory rules

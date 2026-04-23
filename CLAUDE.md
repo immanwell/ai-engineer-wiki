@@ -47,6 +47,7 @@ Before creating any wiki page, read `templates/wiki-page.md` and use it as the b
 - Use the format `[[raw/filename.ext|display text]]` for clickable wiki-links to raw source files
 - If two sources disagree, note the contradiction explicitly
 - If a claim has no source, mark it as needing verification
+- Before writing any wiki page content, cross-check claims against the source — do not introduce information not present in the source; if inferring, label it explicitly as inferred
 
 ## Question answering
 
@@ -75,6 +76,7 @@ When the user asks you to lint or audit the wiki:
 
 - Never modify anything in the `raw/` folder
 - Always update `wiki/index.md` and `wiki/log.md` after changes
+- Before committing, run a lint pass — check for contradictions between pages, orphaned links, and malformed citations
 - Keep page names lowercase with hyphens (e.g. `machine-learning.md`)
 - Write in clear, plain language
 - When uncertain about how to categorize something, ask the user

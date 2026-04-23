@@ -31,24 +31,18 @@ Modified: `=dateformat(this.file.mtime, "DDDD, HH:mm")`
 
 The "specs to code" movement — write a spec, let AI generate code, re-run compiler — fails because it treats code as cheap. The opposite is true: AI amplifies whatever codebase it touches. Good code + AI = compounding leverage. Bad code + AI = compounding disaster.
 
-## The 6 Failure Modes
+## Failure Modes Covered
 
-### 1. The AI Didn't Build What You Wanted
+### The AI Didn't Build What You Wanted
 Communication barrier between human and AI. Frederick Brooks' "design concept" — the invisible theory of what you're building — must be shared. Pocock's fix: "Grill Me" skill — AI interviews you endlessly until alignment is reached.
 
-### 2. The AI Is Too Verbose
+### The AI Is Too Verbose
 AI uses elaborate language for simple ideas. Fix: Domain-Driven Design's "ubiquitous language" — a shared markdown glossary of terms that appears in code, expert conversations, and prompts.
 
-### 3. The Right Thing Doesn't Work
-Execution fails even with alignment. Fix: Tight feedback loops — TypeScript, browser access, automated tests. The rate of feedback is your speed limit.
+### The Right Thing Doesn't Work
+Execution fails even with alignment. The Pragmatic Programmer's concept of "outrunning your headlights" applies: LLMs produce huge code dumps before thinking to type-check or test. Fix: Tight feedback loops — TypeScript, browser access, automated tests. The rate of feedback is your speed limit. TDD — write a test first, make it pass, then refactor.
 
-### 4. (Implied)
-AI produces huge code dumps before thinking to type-check or test. Fix: TDD — write a test first, make it pass, then refactor.
-
-### 5. (Implied)
-Outrunning your headlights — AI goes too far before checking.
-
-### 6. Your Brain Can't Keep Up
+### Your Brain Can't Keep Up
 Cognitive overload from shipping more code than ever. Fix: Deep modules — design interfaces from outside, delegate internals to AI.
 
 ## Core Concepts

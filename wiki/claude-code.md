@@ -11,6 +11,7 @@ tags:
 domain: certification
 sources:
   - "instructor-8lsy243ftffjjy1cx9lm3o2bw-public-1773274827-Claude+Certified+Architect+–+Foundations+Certification+Exam+Guide.pdf"
+  - "Matt Pocock Software Fundamentals AI Age (2025).md"
 status: stable
 confidence: high
 ---
@@ -187,6 +188,37 @@ Claude Code has a granular permissions system:
 - `Bash` — execute shell commands
 - `Network` — make network requests
 - `Edit` — modify existing files (vs. Write for new files)
+
+## Workflow Patterns (Matt Pocock)
+
+### Large features with plan mode
+
+Entry point for any large piece of work: start with a rough dictation prompt (not a fully formed spec). Let Claude explore the codebase first and identify unclear requirements before producing a plan.
+
+Process:
+1. Rough prompt → Claude explore sub-agent examines codebase
+2. Claude returns clarifying questions (interactive form)
+3. Answer each question, then Claude produces the plan
+4. Use "keep planning" to break into phases when the plan is large
+
+### Phased planning with context monitoring
+
+- Monitor token usage habitually before each phase
+- Stage files between phases to maintain clear separation
+- If context window needs clearing mid-project: create a GitHub issue with the full plan (all checked-off items), then reset
+- Resume by fetching the GitHub issue — picks up exactly where left off
+
+### Memory rules for Claude Code
+
+Two rules that drive the entire workflow:
+1. **Extreme concision** — sacrifice grammar for clarity in all interactions and commit messages
+2. **Unresolved questions at end of every plan** — makes plan output scannable and actionable
+
+### GitHub as context store
+
+- GitHub CLI is the primary GitHub interaction method
+- Personal branches prefixed with a creator identifier
+- GitHub issues preserve execution state across context resets — shareable artifact for async collaboration
 
 ## Exam relevance
 
