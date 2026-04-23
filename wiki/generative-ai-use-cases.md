@@ -55,7 +55,6 @@ Modified: `=dateformat(this.file.mtime, "DDDD, HH:mm")`
 ## Exam Relevance
 
 - [[agentic-architecture]] — maps to real-world application patterns
-- [[generative-ai-use-cases]] — consumer vs enterprise considerations
 
 ## Related Pages
 
