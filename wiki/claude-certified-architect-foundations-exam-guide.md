@@ -28,7 +28,7 @@ Modified: `=dateformat(this.file.mtime, "DDDD, HH:mm")`
 
 - **Format**: Multiple choice, 76 questions, web-based
 - **Duration**: 90 minutes
-- **Cost**: $250 USD
+- **Cost**: $99 USD
 - ** Proctoring**: Remote, webcam required
 - **Prerequisites**: None officially stated
 - **Result**: Pass/fail only — no score percentage provided
