@@ -13,6 +13,7 @@ sources:
   - "At Duolingo, humans and AI work together to create a high-quality learning experience.md"
   - "Coach Salish Gem.md"
   - "Khan Academy Khanmigo Demo (Sal Khan, 2024).md"
+  - "Khanmigo Scaling Case Study (Shawn Jansepar, 2024).md"
 status: stub
 confidence: medium
 ---
@@ -49,6 +50,7 @@ What it does:
 - Teacher dashboards: lesson plans, exit tickets, student oversight
 - Parent/guardian visibility — not a black box
 - Connects to student interests for personalized relevance
+- Teacher-specific tools: Lesson Hook (engaging intro generators), Text Leveler (adjusts reading level for accessibility), Refresh My Knowledge (teacher self-review), Real World Context Generator (connects lessons to student interests), Discussion Prompts, and Fun Class Summary Poems
 
 What it lacks:
 - No persona/character layer

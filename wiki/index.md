@@ -49,3 +49,4 @@ A curated knowledge base for the Claude Certified Architect – Foundations exam
 - [[pocock-software-fundamentals]] — Software fundamentals beat AI hype: feedback loops, deep modules, ubiquitous language
 - [[deep-modules]] — Ousterhout's architecture ideal for AI: simple interfaces, tested boundaries, gray-box internals
 - [[tax-preparer]] — Product concept: UG tax assistant with URA regulations moat
+- [[khanmigo-scaling-case-study]] — Khan Academy scaling Khanmigo to 200K: math agent architecture, AI-first org, technical hurdles
