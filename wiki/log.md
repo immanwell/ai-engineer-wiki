@@ -97,3 +97,12 @@ Append-only record of all wiki operations.
 - `khanmigo-scaling-case-study.md` — Scale proof (200K users), math agent (CoT + RAG), Writing Coach, AI-first org transformation, technical hurdles
 
 **Updated**: `ai-tutor.md` and `socratic-tutoring.md` sources to include new Khanmigo case study
+
+## 2026-04-24 (Evening)
+
+**Source ingested**: `Superset Workflow Kiet (2024).md` (YouTube, summarized via summarize CLI)
+
+**Pages created**:
+- `superset-workflow.md` — 5-stage manufacturing pipeline (trigger/plan/coding/review/merge), throughput bottleneck, token allocation problem
+
+**Updated**: `log.md`
