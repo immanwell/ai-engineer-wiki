@@ -10,6 +10,7 @@ domain: "product"
 sources:
   - "Coach Salish Gem.md"
   - "Khan Academy Khanmigo Demo (Sal Khan, 2024).md"
+  - "Khanmigo Scaling Case Study (Shawn Jansepar, 2024).md"
 status: stub
 confidence: high
 ---

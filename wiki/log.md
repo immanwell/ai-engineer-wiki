@@ -88,3 +88,12 @@ Append-only record of all wiki operations.
 **Updated**: `wiki/index.md` with new pages and one-line descriptions
 
 **Also**: Added workflow patterns section to `claude-code.md` — plan mode workflow, phased planning, context preservation via GitHub issues, memory rules
+
+## 2026-04-24
+
+**Source ingested**: `Khanmigo Scaling Case Study (Shawn Jansepar, 2024).md` (YouTube, Shawn Jansepar, summarized via summarize CLI)
+
+**Pages created**:
+- `khanmigo-scaling-case-study.md` — Scale proof (200K users), math agent (CoT + RAG), Writing Coach, AI-first org transformation, technical hurdles
+
+**Updated**: `ai-tutor.md` and `socratic-tutoring.md` sources to include new Khanmigo case study
