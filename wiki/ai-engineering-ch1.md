@@ -25,7 +25,7 @@ Modified: `=dateformat(this.file.mtime, "DDDD, HH:mm")`
 
 ---
 
-## Key Points
+### Key Points
 
 ### Evolution of AI
 Language Models → LLMs (self-supervision) → Foundation Models (multimodal) → AI Engineering
