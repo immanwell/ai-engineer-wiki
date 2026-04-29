@@ -48,5 +48,9 @@ A curated knowledge base for the Claude Certified Architect – Foundations exam
 - [[socratic-tutoring]] — Teaching method: guide students to answers, never give them away
 - [[pocock-software-fundamentals]] — Software fundamentals beat AI hype: feedback loops, deep modules, ubiquitous language
 - [[deep-modules]] — Ousterhout's architecture ideal for AI: simple interfaces, tested boundaries, gray-box internals
+- [[rlhf]] — Reinforcement Learning from Human Feedback: post-training alignment, SFT + preference finetuning
+- [[scaling-laws]] — Parameters, training tokens, FLOPs: the 3 numbers that define model scale
+- [[transformer-limitations]] — Context limits, hallucinations, symbolic reasoning gaps, and agentic implications
+- [[foundation-model-evaluation]] — Evaluation as the first step in systematic AI engineering (Ch3 + Ch4 to expand)
 - [[tax-preparer]] — Product concept: UG tax assistant with URA regulations moat
 - [[khanmigo-scaling-case-study]] — Khan Academy scaling Khanmigo to 200K: math agent architecture, AI-first org, technical hurdles

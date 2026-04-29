@@ -106,3 +106,15 @@ Append-only record of all wiki operations.
 - `superset-workflow.md` — 5-stage manufacturing pipeline (trigger/plan/coding/review/merge), throughput bottleneck, token allocation problem
 
 **Updated**: `log.md`
+
+## 2026-04-29
+
+**Source ingested**: `AI Engineer Chapter 2 (Chip Huyen, 2025).md` (GitHub chapter-summaries.md)
+
+**Pages created**:
+- `rlhf.md` — RLHF: SFT + preference finetuning, post-training alignment
+- `scaling-laws.md` — Parameters, training tokens, FLOPs, compute budget tradeoffs
+- `transformer-limitations.md` — Context limits, hallucinations, symbolic reasoning gaps
+- `foundation-model-evaluation.md` — Evaluation as first step in systematic AI engineering (Ch3+4 to expand)
+
+**Updated**: `wiki/index.md` with new pages and one-line descriptions
