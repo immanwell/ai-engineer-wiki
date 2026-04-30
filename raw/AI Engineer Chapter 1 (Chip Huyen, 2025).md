@@ -36,6 +36,6 @@ While AI engineering is a new term, it evolved out of ML engineering, which is t
 
 One aspect of AI engineering that is especially challenging to capture in writing is the incredible amount of collective energy, creativity, and engineering talent that the community brings. This collective enthusiasm can often be overwhelming, as it's impossible to keep up-to-date with new techniques, discoveries, and engineering feats that seem to happen constantly.
 
-One consolidation is that since AI is great at information aggregation, it can help us aggregate and summarize all these new updates. But tools can only help to a certain extent. The more overwhelming a space is, the more important it is to have a framework to help us navigate it. This book aims to provide such a framework.
+One consolidation is that since AI is great at information aggregation, it can help us aggregate and summarize all these new updates. But tools can only help to a certain extent. The more overwhelming a space is, the more important it is to have a framework to help us navigate it and this book aims to provide such a framework.
 
 The rest of the book will explore this framework step-by-step, starting with the fundamental building block of AI engineering: the foundation models that make so many amazing applications possible.
