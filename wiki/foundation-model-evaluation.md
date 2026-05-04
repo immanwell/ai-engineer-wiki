@@ -9,8 +9,10 @@ tags:
 domain: "context-reliability"
 sources:
   - "AI Engineer Chapter 2 (Chip Huyen, 2025).md"
-status: stub
-confidence: medium
+  - "AI Engineer Chapter 3 (Chip Huyen, 2025).md"
+  - "AI Engineer Chapter 4 (Chip Huyen, 2025).md"
+status: stable
+confidence: high
 ---
 
 Created: Wednesday, 29 April 2026, 13:12
@@ -39,22 +41,54 @@ Without evaluation:
 
 Chip frames systematic AI engineering as building workflows that are **at least systematic if not deterministic**. Evaluation is the first step.
 
-## Topics Covered in Chapters 3 and 4
+## Evaluation Methods (Chapter 3)
 
-Chapter 3 (Evaluation Methodology) and Chapter 4 (Evaluate AI Systems) go deeper. This page will be expanded as those chapters are read.
+Two complementary approaches:
 
-Expected coverage:
-- Evaluation methodology (Chapter 3)
-- Model selection and benchmarking (Chapter 4)
-- Hosting vs API tradeoffs
-- Public benchmarks and their limitations
+| Method | Type | Use Case |
+|--------|------|----------|
+| [[functional-correctness]] | Exact — binary pass/fail | Code compilation, math, factual retrieval |
+| [[ai-as-a-judge]] | Subjective — judge-dependent scores | Open-ended: tone, helpfulness, coherence |
 
-## Key Note
+**Best practice**: Use both together. AI-as-a-judge must be validated against functional metrics. Supplement with human evaluation for high-stakes outputs.
 
-> Evaluation for foundation models is so crucial that I dedicated two chapters to it. — Chip Huyen
+## Comparative Evaluation
+
+Beyond absolute scores: which model is better? Requires preference signals (expensive to collect). Common in chess (Elo ratings). [[ai-as-a-judge]] — prefer comparative over absolute scoring.
+
+## Model Selection (Chapter 4)
+
+Public benchmarks are **contaminated** (data likely in training) and **generic** (not your use case). Model selection = creating a **private leaderboard**:
+1. Define evaluation criteria
+2. Test models on your actual tasks
+3. Rank by your specific metrics
+
+Public leaderboards are useful starting signals, not final answers.
+
+## Build vs Buy (Chapter 4)
+
+| Factor | Model API (Buy) | Self-Host (Build) |
+|--------|----------------|-------------------|
+| Data Privacy | Leaves infrastructure | Stays local |
+| Performance | Managed, frontier access | Custom optimization |
+| Control | Limited | Full |
+| Cost | Pay-per-use | GPU infrastructure |
+| Expertise | None needed | ML team required |
+
+7 axes: data privacy, data lineage, performance, functionality, control, cost, safety/compliance.
+
+## Why It Matters
+
+Working with AI models requires building workflows around their **probabilistic nature**. Without evaluation:
+- Hallucinations go undetected
+- Model changes silently degrade performance
+- No way to detect regressions from prompt or model updates
 
 ## Related Pages
 
-- [[rlhf]]
-- [[context-reliability]]
-- [[ai-engineering-discipline]]
+- [[functional-correctness]] — exact evaluation
+- [[ai-as-a-judge]] — subjective evaluation with AI judges
+- [[private-model-selection]] — private leaderboard approach
+- [[build-vs-buy-ai]] — hosting vs API decision framework
+- [[rlhf]] — post-training alignment
+- [[context-reliability]] — token management

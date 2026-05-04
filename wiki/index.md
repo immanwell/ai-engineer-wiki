@@ -51,6 +51,10 @@ A curated knowledge base for the Claude Certified Architect – Foundations exam
 - [[rlhf]] — Reinforcement Learning from Human Feedback: post-training alignment, SFT + preference finetuning
 - [[scaling-laws]] — Parameters, training tokens, FLOPs: the 3 numbers that define model scale
 - [[transformer-limitations]] — Context limits, hallucinations, symbolic reasoning gaps, and agentic implications
-- [[foundation-model-evaluation]] — Evaluation as the first step in systematic AI engineering (Ch3 + Ch4 to expand)
+- [[foundation-model-evaluation]] — Evaluation as the first step in systematic AI engineering (Ch3 + Ch4 complete)
+- [[functional-correctness]] — Exact evaluation: binary pass/fail on whether AI produces correct output
+- [[ai-as-a-judge]] — Subjective evaluation: AI judges score other AI outputs, judge-dependent and context-specific
+- [[private-model-selection]] — Public benchmarks contaminated; model selection = creating a private leaderboard
+- [[build-vs-buy-ai]] — 7 axes decision framework: data privacy, performance, control, cost for API vs self-host
 - [[tax-preparer]] — Product concept: UG tax assistant with URA regulations moat
 - [[khanmigo-scaling-case-study]] — Khan Academy scaling Khanmigo to 200K: math agent architecture, AI-first org, technical hurdles

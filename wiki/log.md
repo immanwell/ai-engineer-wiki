@@ -118,3 +118,16 @@ Append-only record of all wiki operations.
 - `foundation-model-evaluation.md` — Evaluation as first step in systematic AI engineering (Ch3+4 to expand)
 
 **Updated**: `wiki/index.md` with new pages and one-line descriptions
+
+## 2026-05-04
+
+**Source ingested**: `AI Engineer Chapter 3 (Chip Huyen, 2025).md` + `AI Engineer Chapter 4 (Chip Huyen, 2025).md` (GitHub chapter-summaries.md)
+
+**Pages created**:
+- `functional-correctness.md` — Exact evaluation: binary pass/fail on whether AI produces correct output
+- `ai-as-a-judge.md` — Subjective evaluation: AI judges score other AI outputs, judge-dependent and context-specific
+- `build-vs-buy-ai.md` — 7 axes decision framework: data privacy, performance, control, cost for API vs self-host
+- `private-model-selection.md` — Public benchmarks contaminated; model selection = creating a private leaderboard
+
+**Updated**: `foundation-model-evaluation.md` — expanded stub with Ch3 + Ch4 content
+**Updated**: `wiki/index.md` with 4 new pages and one-line descriptions
