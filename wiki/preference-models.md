@@ -19,7 +19,7 @@ Modified: `=dateformat(this.file.mtime, "DDDD, HH:mm")`
 
 # Preference Models
 
-**Summary**: Specialized AI judges trained to predict which response users prefer — solving the expense of collecting preference signals for comparative evaluation and RLHF.
+**Summary**: Specialized AI judges trained to predict which response users prefer — solving the expense of collecting preference signals for comparative evaluation and [[RLHF]].
 
 **Sources**: [[raw/AI Engineer Chapter 3 (Chip Huyen, 2025).md|AI Engineering Chapter 3]]
 
@@ -35,7 +35,7 @@ Instead of humans ranking every response pair, a preference model learns from pr
 
 - **Expensive signals**: Human preference collection is slow and costly at scale
 - **Scalable**: Preference models allow comparative evaluation without human-per-pair costs
-- **Used in alignment**: RLHF relies on preference signals — preference models can help generate them
+- **Used in alignment**: [[RLHF]] relies on preference signals — preference models can help generate them
 
 ## Relationship to AI-as-a-Judge
 
