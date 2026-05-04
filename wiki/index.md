@@ -51,6 +51,7 @@ A curated knowledge base for the Claude Certified Architect – Foundations exam
 - [[rlhf]] — Reinforcement Learning from Human Feedback: post-training alignment, SFT + preference finetuning
 - [[scaling-laws]] — Parameters, training tokens, FLOPs: the 3 numbers that define model scale
 - [[transformer-limitations]] — Context limits, hallucinations, symbolic reasoning gaps, and agentic implications
+- [[evaluation-driven-development]] — EDD framework: define what "good" looks like first, then guide model selection, design, deployment, and iteration
 - [[foundation-model-evaluation]] — Evaluation as the first step in systematic AI engineering (Ch3 + Ch4 complete)
 - [[functional-correctness]] — Exact evaluation: binary pass/fail on whether AI produces correct output
 - [[ai-as-a-judge]] — Subjective evaluation: AI judges score other AI outputs, judge-dependent and context-specific

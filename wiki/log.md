@@ -133,3 +133,12 @@ Append-only record of all wiki operations.
 **Updated**: `wiki/index.md` with 4 new pages and one-line descriptions
 
 **Also**: Created `preference-models.md` — referenced in ai-as-a-judge but had no dedicated page
+
+## 2026-05-05
+
+**Source ingested**: `Chip Huyen's Evaluation-Driven Development (EDD) framework from AI Engineering.md` (Medium article by Keerthanams, summarizing Ch4)
+
+**Pages created**:
+- `evaluation-driven-development.md` — EDD framework: 4 evaluation pillars, model selection workflow, pipeline building, meta-evaluation
+
+**Updated**: `wiki/index.md` with new page and one-line description
