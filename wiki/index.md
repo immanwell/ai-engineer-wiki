@@ -54,6 +54,7 @@ A curated knowledge base for the Claude Certified Architect – Foundations exam
 - [[foundation-model-evaluation]] — Evaluation as the first step in systematic AI engineering (Ch3 + Ch4 complete)
 - [[functional-correctness]] — Exact evaluation: binary pass/fail on whether AI produces correct output
 - [[ai-as-a-judge]] — Subjective evaluation: AI judges score other AI outputs, judge-dependent and context-specific
+- [[preference-models]] — Specialized AI judges trained to predict which response users prefer
 - [[private-model-selection]] — Public benchmarks contaminated; model selection = creating a private leaderboard
 - [[build-vs-buy-ai]] — 7 axes decision framework: data privacy, performance, control, cost for API vs self-host
 - [[tax-preparer]] — Product concept: UG tax assistant with URA regulations moat

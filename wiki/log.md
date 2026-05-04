@@ -131,3 +131,5 @@ Append-only record of all wiki operations.
 
 **Updated**: `foundation-model-evaluation.md` — expanded stub with Ch3 + Ch4 content
 **Updated**: `wiki/index.md` with 4 new pages and one-line descriptions
+
+**Also**: Created `preference-models.md` — referenced in ai-as-a-judge but had no dedicated page
