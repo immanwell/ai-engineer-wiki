@@ -76,7 +76,7 @@ When the user asks you to lint or audit the wiki:
 
 - Never modify anything in the `raw/` folder
 - Always update `wiki/index.md` and `wiki/log.md` after changes
-- Before committing, run a lint pass — check for contradictions between pages, orphaned links, and malformed citations
+- Before committing, run a lint pass — check for contradictions between pages, orphaned links, malformed citations, and **untagged code blocks** in /wiki/ files (every opening "```" must have a language tag like "```txt", "```bash", "```json", etc.)
 - Keep page names lowercase with hyphens (e.g. `machine-learning.md`)
 - Write in clear, plain language
 - When uncertain about how to categorize something, ask the user
