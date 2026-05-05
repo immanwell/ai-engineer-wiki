@@ -11,7 +11,7 @@ Claude maintains the wiki. The human curates sources, asks questions, and guides
 
 ## Folder structure
 
-```
+```txt
 raw/          -- source documents (immutable -- never modify these)
 wiki/         -- markdown pages maintained by Claude
 wiki/index.md -- table of contents for the entire wiki
