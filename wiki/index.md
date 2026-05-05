@@ -29,7 +29,8 @@ A curated knowledge base for the Claude Certified Architect – Foundations exam
 
 ## Supporting Domains
 
-- [[prompt-engineering]] — 5% of exam — Techniques, context optimization
+- [[prompt-engineering]] — 5% of exam — Crafting inputs to reliably produce desired outputs (Ch5 expanded)
+- [[prompt-attacks]] — Prompt injection, jailbreaking, and defenses — security risks from following instructions
 - [[context-reliability]] — 5% of exam — Token management, cache optimization
 
 ## Core Concepts

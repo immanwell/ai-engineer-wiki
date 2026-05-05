@@ -146,3 +146,14 @@ Append-only record of all wiki operations.
 ## 2026-05-05 (Evening)
 
 **Updated**: `wiki/ai-native-engineer.md` — added practical Claude Code workflow example (3-step implementation with URL shortener)
+
+## 2026-05-06
+
+**Source ingested**: `AI Engineer Chapter 5 (Chip Huyen, 2025).md` (GitHub chapter-summaries.md)
+
+**Updated**: `wiki/prompt-engineering.md` — added Ch5 content: Prompt Anatomy (4 components), In-Context Learning (ICL)
+
+**Pages created**:
+- `prompt-attacks.md` — Prompt injection, jailbreaking, indirect injection, defenses
+
+**Updated**: `wiki/index.md` with new page and updated prompt-engineering description
