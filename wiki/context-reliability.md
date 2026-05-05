@@ -80,7 +80,7 @@ Caching reduces costs on repeated context.
 
 Combine recent conversation with retrieved context:
 
-```
+```txt
 [system prompt] + [retrieved docs] + [recent messages]
 ```
 

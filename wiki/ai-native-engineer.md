@@ -58,7 +58,7 @@ Using the same 3-step principle for building software with Claude Code:
 
 Start a fresh Claude Code session. Build one task at a time:
 
-```
+```bash
 /plan build a URL shortener in Node.js with Express
 → review plan → approve → it creates files
 
@@ -76,14 +76,14 @@ After each task, you run and check the output. Note what Claude gets wrong (hall
 Now add two features simultaneously using two Claude Code sessions:
 
 **Terminal 1** (`feature/analytics`):
-```
+```bash
 cd ~/url-shortener
 claude-code --worktree feature/analytics
 → "Add click tracking — increment counter in SQLite on each visit"
 ```
 
 **Terminal 2** (`feature/custom-slugs`):
-```
+```bash
 cd ~/url-shortener
 claude-code --worktree feature/custom-slugs
 → "Add custom slugs — let users choose their own short code"
@@ -97,7 +97,7 @@ Both run in parallel. You review both, then merge sequentially.
 
 New issue: "Add rate limiting — 100 req/min per IP"
 
-```
+```bash
 Trigger → Plan → Code → Review → Merge
 
 /plan add rate limiting with sliding window algorithm, 100 req/min per IP
