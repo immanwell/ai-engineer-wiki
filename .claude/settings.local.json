@@ -10,7 +10,9 @@
       "Bash(echo \"Command failed with exit code $?\")",
       "WebFetch(domain:minimax-algeng-chat-tts-us.oss-us-east-1.aliyuncs.com)",
       "Bash(convert screenshot.png -resize 1200x800 -quality 85 screenshot.png)",
-      "Bash(summarize:*)"
+      "Bash(summarize:*)",
+      "Bash(grep -n '^```' ai-tutor.md claude-code.md rlhf.md superset-workflow.md tool-design-mcp.md)",
+      "Bash(grep -n '```' rlhf.md tool-design-mcp.md)"
     ]
   },
   "enableAllProjectMcpServers": true,
