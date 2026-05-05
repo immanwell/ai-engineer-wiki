@@ -85,3 +85,4 @@ When the user asks you to lint or audit the wiki:
 - Never move or modify the "Modified" formula
 - The {{Date and Time}} should be in the following format: "dddd, Do MMMM YYYY, HH:mm" eg Monday, May 13, 1956, 01:20 reflecting the current day of the week, month, date, year and time the document is created and this is never changed again
 - When updating an existing wiki page, never touch the `Created` field or `Modified` formula — edit body content only; the Modified field auto-updates via Obsidian's `dateformat(this.file.mtime, ...)` formula
+- Always specify a language tag on code blocks — use ```bash for CLI commands, ```txt for plain text/formulas, ```js for JavaScript, ```python for Python, etc. Every code block must have a language tag; if it's not code, use ```txt
