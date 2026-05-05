@@ -52,7 +52,7 @@ A agentic system typically follows this cycle:
 
 The API format that powers agentic systems:
 
-```
+```txt
 [system, user, assistant(tool call), tool result, assistant(tool call), tool result, assistant(final)]
 ```
 

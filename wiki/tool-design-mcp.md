@@ -38,7 +38,7 @@ MCP servers and clients communicate over JSON-RPC 2.0, typically via stdio or HT
 
 ## MCP Architecture
 
-```
+```txt
 ┌─────────────┐     MCP Protocol      ┌──────────────┐
 │   MCP Host  │◄─────────────────────►│  MCP Server  │
 │ (Claude     │                       │ (your tool   │

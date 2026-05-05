@@ -37,7 +37,7 @@ Human preference is diverse and impossible to capture in a single mathematical f
 
 ## The Training Workflow
 
-```
+```txt
 Pre-training → SFT (Supervised Finetuning) → RLHF (Preference Finetuning)
 ```
 

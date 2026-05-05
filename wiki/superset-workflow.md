@@ -28,7 +28,7 @@ Modified: `=dateformat(this.file.mtime, "DDDD, HH:mm")`
 
 ## The 5-Stage Pipeline
 
-```
+```txt
 Trigger → Plan → Coding → Review → Merge
 ```
 

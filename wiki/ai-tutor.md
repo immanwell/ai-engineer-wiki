@@ -95,7 +95,7 @@ What broke:
 
 The tutor persona, rules, student profile, and workflows go into a `skill.md` file. This drives an agent (not a chat interface) that has real tool execution.
 
-```
+```txt
 skill.md (persona, rules, profile) → Agent (Claude) → Real tools (Gmail, Calendar, Docs)
 ```
 
@@ -110,7 +110,7 @@ Characters are built as Skills with:
 
 ### The Learning Loop
 
-```
+```txt
 Phase 1: Equipment Check → Assess prior knowledge
 Phase 2: Turn-Based Gameplay → One question at a time
 Phase 3: Collab Cam → Student explains concept in their own words
