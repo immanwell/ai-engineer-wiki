@@ -41,7 +41,7 @@ Prompt engineering is the smallest domain at **5% of the exam** (4 questions), b
 
 Assigning a persona or role improves consistency:
 
-```
+```txt
 You are a senior software architect reviewing pull requests.
 Focus on: security, scalability, and maintainability.
 ```
@@ -50,7 +50,7 @@ Focus on: security, scalability, and maintainability.
 
 Encourage the model to show reasoning before answering:
 
-```
+```txt
 First, explain your reasoning. Then provide the answer.
 ```
 
@@ -60,7 +60,7 @@ This improves accuracy on complex multi-step problems.
 
 Provide examples of desired input-output pairs:
 
-```
+```txt
 Input: "The system crashed" → Output: {"severity": "high", ...}
 Input: "Slow response time" → Output: {"severity": "medium", ...}
 ```
@@ -93,7 +93,7 @@ Examples should be representative and cover edge cases.
 
 Use clear delimiters and formatting instructions:
 
-```
+```txt
 Return your response as:
 1. **Summary** — one paragraph
 2. **Key Points** — numbered list
@@ -104,8 +104,8 @@ Return your response as:
 
 For machine-readable outputs, specify exact schema:
 
-```
-Respond with valid JSON: {"title": string, "priority": "high"|"medium"|"low"}
+```json
+{"title": string, "priority": "high"|"medium"|"low"}
 ```
 
 ## Exam relevance
