@@ -142,3 +142,7 @@ Append-only record of all wiki operations.
 - `evaluation-driven-development.md` — EDD framework: 4 evaluation pillars, model selection workflow, pipeline building, meta-evaluation
 
 **Updated**: `wiki/index.md` with new page and one-line description
+
+## 2026-05-05 (Evening)
+
+**Updated**: `wiki/ai-native-engineer.md` — added practical Claude Code workflow example (3-step implementation with URL shortener)
