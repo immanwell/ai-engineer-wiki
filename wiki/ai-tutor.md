@@ -141,9 +141,9 @@ This is loaded dynamically — not hardcoded in prompts.
 
 | Tier | Price | Features |
 |---|---|---|
-| Free | Ads + Groq | 30 min/day, basic characters |
-| Individual | Paid | Best models, no limits, all characters, dashboards |
-| School/Group | Paid | Bulk subscriptions, teacher/admin dashboards |
+| Free | Ads + Groq | 30 min/day, basic characters, Sonnet-only (no Advisor) |
+| Individual | Paid | Sonnet + Opus Advisor for complex queries, no limits, all characters, dashboards |
+| School/Group | Paid | Bulk subscriptions, teacher/admin dashboards, Opus Advisor on |
 
 - Family plan: 3+ children at reduced rate
 - School-wide: teacher + student access
@@ -164,3 +164,4 @@ This is loaded dynamically — not hardcoded in prompts.
 - [[tax-preparer]]
 - [[generative-ai-use-cases]]
 - [[ai-engineering-ch1]]
+- [[advisory-strategy]] — Sonnet Executor + Opus Advisor pattern maps to freemium tier architecture

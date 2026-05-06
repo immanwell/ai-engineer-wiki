@@ -38,6 +38,7 @@ A curated knowledge base for the Claude Certified Architect – Foundations exam
 - [[agent-vs-expert-problem]] — Why agents need domain expertise beyond raw intelligence
 - [[mihail-eric-junior-engineers-crisis]] — Stanford talk: AI-native engineer skills, agentic codebase design, junior dev advantage
 - [[ai-native-engineer]] — Context switching across agents, building workflows incrementally
+- [[advisory-strategy]] — Executor (Sonnet) + Advisor (Opus) pattern: frontier quality at 5x lower cost (Claude 2026 keynote)
 - [[agent-friendly-codebase]] — Tests as contracts, documentation consistency, error compounding
 - [[junior-engineer-advantage]] — "Good naivety" and healthy arrogance as AI adoption strengths
 - [[software-taste]] — "The last mile" differentiator in software quality

@@ -157,3 +157,14 @@ Append-only record of all wiki operations.
 - `prompt-attacks.md` — Prompt injection, jailbreaking, indirect injection, defenses
 
 **Updated**: `wiki/index.md` with new page and updated prompt-engineering description
+
+## 2026-05-06 (Evening)
+
+**Source ingested**: `Code with Claude 2026 Opening Keynote.md` (transcript shared by user)
+
+**Pages created**:
+- `advisory-strategy.md` — Executor (Sonnet) + Advisor (Opus) pattern: 5x lower cost, 63.4% accuracy (up from 59.6%)
+
+**Updated**:
+- `wiki/index.md` — added advisory-strategy entry
+- `wiki/ai-tutor.md` — freemium tiers mapped to Advisory Strategy (Free=Sonnet only, Paid=Sonnet+Opus Advisor)
