@@ -13,6 +13,8 @@ tags:
 
 Code with Claude 2026: Opening Keynote Summary & Narrative Transcript
 
+**Watch**: https://www.youtube.com/live/GMIWm5y90xA
+
 Event Date: May 6, 2026
 Host: Anthropic
 
