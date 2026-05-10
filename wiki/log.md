@@ -183,3 +183,12 @@ Append-only record of all wiki operations.
 
 **Pages created**:
 - `claude-managed-agents.md` — Managed infrastructure for agents: 3 pillars, State Store, Event Topology, Outcomes, Multiagent Orchestration
+
+## 2026-05-10 (Session 3)
+
+**Source ingested**: `Designing Memory Systems for Self-Learning Agents.md` (Code with Claude 2026, Gemini transcript)
+
+**Updated**:
+- `agent-memory.md` — Expanded with Ch6 + Claude 2026 session 3: file system memory model, permission scopes, optimistic concurrency, Dreaming deep-dive (6x Harvey improvement, 90% Roktun mistake reduction), three-layer framework
+
+**Raw saved**: `Designing Memory Systems for Self-Learning Agents.md` (Gemini-formatted digest)
