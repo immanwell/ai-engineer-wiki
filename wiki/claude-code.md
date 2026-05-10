@@ -126,6 +126,36 @@ In `settings.json`:
 - Blocking destructive operations
 - Generating changelogs or documentation
 
+### Pre/Post tool hooks (new)
+
+Define hooks that trigger **before** or **after** a specific tool is called:
+- Block certain tool calls in specific situations
+- Analyze and log outputs programmatically after tool calls
+
+```json
+{
+  "hooks": {
+    "pre-tool-use": {
+      "Bash": [".claude/hooks/pre-bash-verify.sh"]
+    }
+  }
+}
+```
+
+### `/schedule` (new)
+
+Use `/schedule` to set **cron-triggered autonomous runs** — the self-iteration loop on a timer, happening when you need it, completely autonomously.
+
+### `{slash} context` (new)
+
+Type `{slash} context` to get a **live colored grid breakdown** of what's filling your context window — viscerally see how much space messages, tool results, systems, and MCP definitions take. Also shows optimization suggestions.
+
+### Claude in Chrome extension (new)
+
+Claude Code can leverage your **Chrome browser session** via the Claude in Chrome extension (`claude.ai/chrome`):
+- Claude code session can start navigating the web
+- Works for local development too
+
 ## Multi-agent
 
 Claude Code supports multi-agent patterns:

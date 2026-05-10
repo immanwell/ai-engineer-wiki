@@ -99,6 +99,22 @@ For very long contexts:
 2. Use an LLM to generate a summary
 3. Replace the full history with the summary + recent turns
 
+## New: Prune stale tool results every turn
+
+> "By pruning stale tool outputs — screenshots, search results, file reads — you can save tremendously on context while keeping the decisions they informed."
+
+The pattern:
+1. Model reads a huge file → gets screenshot → makes a decision
+2. Model runs a search that dumps a ton of text
+3. **Clear those results** — keep only: the core task, the decision made, the results the agent analyzed itself
+4. Tokens saved in real time
+
+## New: 1M context at flat pricing
+
+Anthropic now offers **1 million context length at flat pricing** — reduces most window pressure. Server-side compaction handles automatic context compression. The result is "much closer to the feeling of an infinite context window."
+
+---
+
 ## Exam relevance
 
 Expected to understand:

@@ -66,6 +66,15 @@ Each turn can include:
 
 When a tool call returns, the next assistant turn receives it as `tool_result` content — the agent continues reasoning from that context without any special wrapper needed.
 
+### Two computers mental model (new)
+
+| Computer | Use For |
+|----------|---------|
+| **Claude's sandbox** | Stateless compute, data analysis, installing libraries |
+| **Your local bash** | Access to your repo, local Python env, local context |
+
+Claude intelligently knows which to use. Sandbox for scratch pad work; local bash when it needs repo access.
+
 ### Parallelism
 
 The API supports running multiple tool calls simultaneously. Results come back in the same order as the call array. If one fails, others still complete.

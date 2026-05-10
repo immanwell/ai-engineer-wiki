@@ -74,6 +74,18 @@ Tools return structured JSON. The `content` array typically contains:
 - `type: "image"` for image data
 - Error messages as text with clear descriptions
 
+### Describe the output schema
+
+When defining a tool, describe the **output schema** — not just input parameters. By telling Claude what the output shape will be, it knows what to expect and can act on outputs without an extra round trip.
+
+```txt
+Tool: search_docs
+Input: query string
+Output schema: {id, title, snippet, score}
+```
+
+If `score` is returned, Claude can rank outputs directly. Without it, Claude would need to ask "what does this tool return?" — adding latency.
+
 ### Idempotency
 
 Design tools to be safely retried. If a tool call fails mid-operation, a retry should not cause duplicate side effects.

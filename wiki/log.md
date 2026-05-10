@@ -177,7 +177,21 @@ Append-only record of all wiki operations.
 - `rag-retrieval.md` — RAG: 2-step retrieve-then-generate, retriever types (term vs embedding), vector search foundations
 - `agent-memory.md` — Agent memory systems: working/episodic/semantic memory, reflection, progress tracking
 
-## 2026-05-10 (Session 2)
+## 2026-05-10 (Session 4)
+
+**Source ingested**: `The Expanding Toolkit.md` (Code with Claude 2026, Session 4)
+
+**Pages created**:
+- `the-expanding-toolkit.md` — Tool use (routers dead), context management (1M, prune stale), code execution (hosted sandbox, two computers), computer use (1440p native, 78% OS World), key rule on compensating vs connecting code
+
+**Updated**:
+- `wiki/context-reliability.md` — added prune stale tool results tip, 1M context at flat pricing
+- `wiki/tool-design-mcp.md` — added output schema in tool description tip
+- `wiki/claude-code.md` — added pre/post tool hooks, `/schedule`, slash context, Claude in Chrome extension
+- `wiki/agentic-architecture.md` — added two computers mental model for sandbox vs local bash
+- `wiki/index.md` — added the-expanding-toolkit entry
+
+**Raw saved**: `The Expanding Toolkit.md` (Gemini-formatted digest)
 
 **Source ingested**: `How to Get to Production Faster with Claude Managed Agents.md` (Code with Claude 2026, Gemini-formatted transcript)
 

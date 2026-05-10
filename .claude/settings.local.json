@@ -12,7 +12,9 @@
       "Bash(convert screenshot.png -resize 1200x800 -quality 85 screenshot.png)",
       "Bash(summarize:*)",
       "Bash(grep -n '^```' ai-tutor.md claude-code.md rlhf.md superset-workflow.md tool-design-mcp.md)",
-      "Bash(grep -n '```' rlhf.md tool-design-mcp.md)"
+      "Bash(grep -n '```' rlhf.md tool-design-mcp.md)",
+      "Bash(\" wiki/context-reliability.md wiki/tool-design-mcp.md wiki/claude-code.md wiki/agentic-architecture.md 2>/dev/null)",
+      "Bash(grep -n \"^```\" wiki/context-reliability.md wiki/tool-design-mcp.md wiki/claude-code.md wiki/agentic-architecture.md 2>/dev/null)"
     ]
   },
   "enableAllProjectMcpServers": true,

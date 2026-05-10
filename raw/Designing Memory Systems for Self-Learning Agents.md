@@ -97,7 +97,7 @@ The Memory API solves the storage and structure layers. But scaling to multi-age
 
 ### How It Works
 
-```
+```txt
 Periodic trigger (cron) or event trigger (agents spin down)
 ↓
 Dreaming job runs
@@ -165,7 +165,7 @@ Future agents benefit from consolidated learnings
 
 ## 6. The Full Picture: Frontier Memory System
 
-```
+```txt
 Memory (Real-time Read/Write)          Dreaming (Batch Async Enrichment)
        ↓                                         ↓
   Immediate learnings               Comprehensive pattern detection
