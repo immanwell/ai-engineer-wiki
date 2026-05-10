@@ -39,6 +39,7 @@ A curated knowledge base for the Claude Certified Architect – Foundations exam
 - [[mihail-eric-junior-engineers-crisis]] — Stanford talk: AI-native engineer skills, agentic codebase design, junior dev advantage
 - [[ai-native-engineer]] — Context switching across agents, building workflows incrementally
 - [[the-expanding-toolkit]] — Session 4: tool routing, 1M context, hosted sandbox, computer use 1440p native (Code with Claude 2026)
+- [[the-capability-curve]] — Session 5: capability curve, planning/error recovery/attention gains, 3 tips (evals, simplify scaffolding, give model room)
 - [[advisory-strategy]] — Executor (Sonnet) + Advisor (Opus) pattern: frontier quality at 5x lower cost (Claude 2026 keynote)
 - [[claude-managed-agents]] — Managed infrastructure for agents: sandboxing, state store, retries, Event Topology, Outcomes (Public Beta)
 - [[agent-friendly-codebase]] — Tests as contracts, documentation consistency, error compounding

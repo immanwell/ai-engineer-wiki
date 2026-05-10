@@ -156,6 +156,13 @@ Claude Code can leverage your **Chrome browser session** via the Claude in Chrom
 - Claude code session can start navigating the web
 - Works for local development too
 
+### Auto Mode (new)
+
+Claude Code **Auto Mode** runs classifiers over tool calls Claude proposes, determining whether each call needs explicit human approval or can proceed autonomously:
+- Claude runs in the background longer and works more autonomously
+- Used for closing the agent loop — Claude can execute on more systems in a controlled, safe way
+- See [[the-capability-curve]] for full context on how this fits "give the model room to work"
+
 ## Multi-agent
 
 Claude Code supports multi-agent patterns:

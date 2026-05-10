@@ -109,6 +109,24 @@ Claude's thinking mode (beta):
 - Thinking content is not visible to the end user by default
 - Can be suppressed with `thinking.type: "bypass"`
 
+## Model-Level Improvements (Opus 4.7 Gains)
+
+From the capability curve research (Code with Claude 2026, Session 5):
+
+### Planning: Think First, Then Act
+
+Older models acted first and thought later — like building IKEA furniture without reading instructions. Opus 4.7 takes time upfront to strategize, plan, and read before writing code. **Implication**: Give Claude time to think. Don't force it to jump straight into action.
+
+### Error Recovery: No More Doom Loops
+
+Older models would hit a problem → propose a solution → solution fails → spiral until context stalls out. Opus 4.7 backs out of dead ends, reads errors, and takes a different path. **Implication**: Better task performance with fewer wasted tokens — no more manual retry harnesses.
+
+### Attention Over Long Runs
+
+Older models lose coherence, forget system prompt instructions, and break down over long contexts. Opus 4.7 holds coherence across **1 million tokens**. **Implication**: No need to manually chunk work or babysit the context window — trust the model's sustained attention.
+
+These three improvements connect to the capability curve: things that previously required scaffolding (retry loops, context chunking, manual planning) are now built into the model.
+
 ## Exam relevance
 
 This domain is the most heavily tested. Expected to understand:

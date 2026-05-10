@@ -177,7 +177,17 @@ Append-only record of all wiki operations.
 - `rag-retrieval.md` — RAG: 2-step retrieve-then-generate, retriever types (term vs embedding), vector search foundations
 - `agent-memory.md` — Agent memory systems: working/episodic/semantic memory, reflection, progress tracking
 
-## 2026-05-10 (Session 4)
+## 2026-05-10 (Session 5)
+
+**Source ingested**: `The Capability Curve.md` (Code with Claude 2026, Session 5)
+
+**Pages created**:
+- `the-capability-curve.md` — Capability curve concept, SweeBench 62%→87%, demo (Sonnet 4 vs Opus 4.7), three model gains (planning, error recovery, attention), three tips (evals, shrink scaffolding, give model room), customer results (Vercel, WinServ, Shopify)
+
+**Updated**:
+- `wiki/index.md` — added the-capability-curve entry
+
+**Raw saved**: `The Capability Curve.md` (transcript from user)
 
 **Source ingested**: `The Expanding Toolkit.md` (Code with Claude 2026, Session 4)
 
