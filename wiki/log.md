@@ -176,3 +176,10 @@ Append-only record of all wiki operations.
 **Pages created**:
 - `rag-retrieval.md` — RAG: 2-step retrieve-then-generate, retriever types (term vs embedding), vector search foundations
 - `agent-memory.md` — Agent memory systems: working/episodic/semantic memory, reflection, progress tracking
+
+## 2026-05-10 (Session 2)
+
+**Source ingested**: `How to Get to Production Faster with Claude Managed Agents.md` (Code with Claude 2026, Gemini-formatted transcript)
+
+**Pages created**:
+- `claude-managed-agents.md` — Managed infrastructure for agents: 3 pillars, State Store, Event Topology, Outcomes, Multiagent Orchestration
