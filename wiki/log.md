@@ -168,3 +168,11 @@ Append-only record of all wiki operations.
 **Updated**:
 - `wiki/index.md` — added advisory-strategy entry
 - `wiki/ai-tutor.md` — freemium tiers mapped to Advisory Strategy (Free=Sonnet only, Paid=Sonnet+Opus Advisor)
+
+## 2026-05-10
+
+**Source ingested**: `AI Engineer Chapter 6 (Chip Huyen, 2025).md` (GitHub chapter-summaries.md)
+
+**Pages created**:
+- `rag-retrieval.md` — RAG: 2-step retrieve-then-generate, retriever types (term vs embedding), vector search foundations
+- `agent-memory.md` — Agent memory systems: working/episodic/semantic memory, reflection, progress tracking
