@@ -177,7 +177,18 @@ Append-only record of all wiki operations.
 - `rag-retrieval.md` — RAG: 2-step retrieve-then-generate, retriever types (term vs embedding), vector search foundations
 - `agent-memory.md` — Agent memory systems: working/episodic/semantic memory, reflection, progress tracking
 
-## 2026-05-10 (Session 5)
+## 2026-05-10 (Evening)
+
+**Sources ingested**: Three Zilliz RAG/embedding documents from `raw/`
+
+**Updated**:
+- `wiki/rag-retrieval.md` — expanded with Vector Embedding Types (dense/sparse/binary), embedding models table (Word2Vec, GloVe, BERT, CLIP, ColBERT, SPLADE, BGE-M3, TF-IDF), embedding creation methods (neural networks, matrix factorization), best practices and pitfalls, chunking strategies (fixed-size vs content-aware vs recursive), chunk size guidance, LangChain code example
+- Changed status from `stub` to `stable`
+
+**Raw files reviewed** (kept in raw/ as reference):
+- `Everything You Need to Know about Vector Index Basics.md` — FAISS-level detail, too deep for exam prep
+- `An Introduction to Vector Embeddings_ What They Are and How to Use Them.md` — used for embedding types + models
+- `A Beginner's Guide to Website Chunking and Embedding for Your RAG Applications.md` — used for chunking strategies
 
 **Source ingested**: `The Capability Curve.md` (Code with Claude 2026, Session 5)
 

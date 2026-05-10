@@ -14,7 +14,12 @@
       "Bash(grep -n '^```' ai-tutor.md claude-code.md rlhf.md superset-workflow.md tool-design-mcp.md)",
       "Bash(grep -n '```' rlhf.md tool-design-mcp.md)",
       "Bash(\" wiki/context-reliability.md wiki/tool-design-mcp.md wiki/claude-code.md wiki/agentic-architecture.md 2>/dev/null)",
-      "Bash(grep -n \"^```\" wiki/context-reliability.md wiki/tool-design-mcp.md wiki/claude-code.md wiki/agentic-architecture.md 2>/dev/null)"
+      "Bash(grep -n \"^```\" wiki/context-reliability.md wiki/tool-design-mcp.md wiki/claude-code.md wiki/agentic-architecture.md 2>/dev/null)",
+      "Bash(ls wiki/*.md)",
+      "Bash(grep -h \"\\\\[\\\\[\" wiki/*.md)",
+      "Bash(ls *.md)",
+      "Bash(grep -n '^\\\\`\\\\`\\\\`$' *.md)",
+      "Bash(python3)"
     ]
   },
   "enableAllProjectMcpServers": true,

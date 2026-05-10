@@ -36,7 +36,7 @@ The Advisory Strategy breaks this tradeoff.
 
 ## How It Works
 
-```
+```txt
 ┌─────────────────────────────────────────────────────────┐
 │                      SHARED CONTEXT                      │
 │  (conversation history, tool results, session state)    │
