@@ -227,3 +227,44 @@ Append-only record of all wiki operations.
 - `agent-memory.md` — Expanded with Ch6 + Claude 2026 session 3: file system memory model, permission scopes, optimistic concurrency, Dreaming deep-dive (6x Harvey improvement, 90% Roktun mistake reduction), three-layer framework
 
 **Raw saved**: `Designing Memory Systems for Self-Learning Agents.md` (Gemini-formatted digest)
+
+## 2026-06-08
+
+**Source ingested**: `AI Engineer Chapter 7 (Chip Huyen, 2025).md` (GitHub chapter-summaries.md)
+
+**Pages created**:
+- `finetuning.md` — When to finetune vs RAG decision framework, full finetuning vs PEFT, LoRA (how it works, why it's popular), quantized training, model merging, the data problem
+
+**Updated**:
+- `wiki/rag-retrieval.md` — added RAG vs Finetuning comparison table and decision rule, linking to finetuning.md
+- `wiki/rlhf.md` — clarified SFT as full finetuning, linked to finetuning.md for PEFT alternatives
+- `wiki/index.md` — added finetuning entry
+
+**Source ingested**: `AI Engineer Chapter 8 (Chip Huyen, 2025).md` (GitHub chapter-summaries.md)
+
+**Pages created**:
+- `dataset-engineering.md` — three criteria (quality/coverage/quantity), data by training phase, synthetic data generation and evaluation, non-automatable annotation work, dataset design thinking process
+
+**Updated**:
+- `wiki/finetuning.md` — expanded data problem section to link to dataset-engineering.md and mention synthetic data
+- `wiki/index.md` — added dataset-engineering entry
+
+**Source ingested**: `AI Engineer Chapter 9 (Chip Huyen, 2025).md` (GitHub chapter-summaries.md)
+
+**Pages created**:
+- `inference-optimization.md` — TTFT/TPOT metrics, prefilling vs decoding phases, latency/throughput tradeoff, model-level techniques (quantization, distillation, KV cache, attention kernels), service-level techniques (batching, tensor/replica parallelism, prompt caching), top-4 most impactful, workload selection guide
+
+**Updated**:
+- `wiki/context-reliability.md` — linked prompt caching section to inference-optimization.md
+- `wiki/finetuning.md` — added note distinguishing quantized training from inference quantization, linked to inference-optimization.md
+- `wiki/index.md` — added inference-optimization entry
+
+**Source ingested**: `AI Engineer Chapter 10 (Chip Huyen, 2025).md` (GitHub chapter-summaries.md)
+
+**Pages created**:
+- `ai-application-architecture.md` — common generative AI architecture diagram, component breakdown (model gateway, context construction, guardrails, inference service, user feedback), modularity with fluid boundaries, complexity tradeoffs, AI observability, data flywheel, system-level thinking
+
+**Updated**:
+- `wiki/agentic-architecture.md` — linked to ai-application-architecture.md as the production system view
+- `wiki/prompt-attacks.md` — linked to ai-application-architecture.md for guardrails as an architectural component
+- `wiki/index.md` — added ai-application-architecture entry

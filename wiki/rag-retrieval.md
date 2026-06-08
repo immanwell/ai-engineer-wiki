@@ -167,6 +167,21 @@ A 2,000-word Wikipedia article split recursively at chunk_size=512 produces ~67 
 - **Too large**:稀释 relevant information, may include noise
 - **512 tokens** is a common starting point for LLM contexts — adjust based on retrieval accuracy
 
+## RAG vs Finetuning
+
+Both RAG and finetuning address model limitations, but they solve different problems:
+
+| Dimension | RAG | Finetuning |
+|-----------|-----|------------|
+| **Best for** | Knowledge gaps (facts, documents) | Behavior/style/format gaps |
+| **Data freshness** | Updates instantly | Requires retraining |
+| **Training data** | None needed | Annotated examples required |
+| **Infrastructure** | Vector DB + retriever | GPU compute |
+
+**Decision rule**: Start with RAG. If the failure mode is behavioral (the model knows the right answer but formats or phrases it wrong), that's a finetuning signal. If it's factual (the model lacks the right knowledge), that's a RAG signal.
+
+See [[finetuning]] for the full decision framework and PEFT/LoRA details.
+
 ## RAG as a Special Case of Agent
 
 Chip Huyen notes an important relationship:

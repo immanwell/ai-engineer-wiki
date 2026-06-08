@@ -45,7 +45,7 @@ Pre-training → SFT (Supervised Finetuning) → RLHF (Preference Finetuning)
 Self-supervised on large corpus — learns language patterns, facts, reasoning
 
 ### SFT (Supervised Finetuning)
-Model trained on curated demonstrations of good responses
+Model trained on curated demonstrations of good responses. SFT is a form of full finetuning — all weights updated on labelled instruction data. See [[finetuning]] for how PEFT/LoRA offer a lighter alternative when doing task-specific finetuning outside of alignment workflows.
 
 ### RLHF
 1. Collect human preference data (pairs of responses ranked)
@@ -67,3 +67,4 @@ One limitation: RLHF doesn't fully solve hallucinations. The model's probabilist
 - [[foundation-model-evaluation]]
 - [[context-reliability]]
 - [[scaling-laws]]
+- [[finetuning]] — PEFT and LoRA as lighter alternatives to full finetuning

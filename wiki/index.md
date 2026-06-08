@@ -66,3 +66,7 @@ A curated knowledge base for the Claude Certified Architect – Foundations exam
 - [[build-vs-buy-ai]] — 7 axes decision framework: data privacy, performance, control, cost for API vs self-host
 - [[tax-preparer]] — Product concept: UG tax assistant with URA regulations moat
 - [[khanmigo-scaling-case-study]] — Khan Academy scaling Khanmigo to 200K: math agent architecture, AI-first org, technical hurdles
+- [[finetuning]] — When to finetune vs RAG, full vs PEFT, LoRA, quantized training, model merging (Ch7)
+- [[dataset-engineering]] — Three criteria (quality/coverage/quantity), data phases, synthetic data, annotation challenges (Ch8)
+- [[inference-optimization]] — TTFT/TPOT metrics, latency/throughput tradeoff, model-level and service-level techniques, top-4 most impactful (Ch9)
+- [[ai-application-architecture]] — Common generative AI architecture: model gateway, guardrails, context construction, observability, data flywheel (Ch10)

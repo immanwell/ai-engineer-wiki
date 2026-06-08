@@ -86,3 +86,4 @@ This is especially dangerous in RAG systems where external documents are fetched
 - [[prompt-engineering]] — the other side: how to write good prompts
 - [[context-reliability]] — managing context securely in agentic systems
 - [[agentic-architecture]] — where tool use amplifies attack surface
+- [[ai-application-architecture]] — guardrails as an architectural component: input/output filtering, flexible placement across gateway, inference service, or standalone

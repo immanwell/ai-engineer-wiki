@@ -66,7 +66,7 @@ Anthropic's `cache_control` attribute marks content as cacheable:
 }
 ```
 
-Caching reduces costs on repeated context.
+Caching reduces costs on repeated context. From an inference optimization perspective, prompt caching avoids reprocessing repeated prompt prefixes — especially valuable for long system prompts, multi-turn conversations, and RAG workloads. See [[inference-optimization]] for the full serving-side picture.
 
 ### Cache invalidation
 

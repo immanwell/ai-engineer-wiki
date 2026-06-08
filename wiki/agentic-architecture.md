@@ -143,3 +143,4 @@ This domain is the most heavily tested. Expected to understand:
 - [[claude-code]] — agentic coding with Claude Code
 - [[context-reliability]] — managing context at scale
 - [[prompt-engineering]] — instructing agents effectively
+- [[ai-application-architecture]] — the production system view: how agents are deployed with gateways, guardrails, observability, and data flywheel
