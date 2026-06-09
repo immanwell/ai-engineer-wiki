@@ -275,3 +275,10 @@ Append-only record of all wiki operations.
 
 **Updated**:
 - `wiki/skills-anthropic.md` — added: code as universal interface + Claude Code as general-purpose agent realization; skills ecosystem breakdown table (foundational/third-party/enterprise); non-technical workers building skills; new "Skills as Transferable Memory" section distinguishing skills from raw retrieval-based memory
+
+## 2026-06-10
+
+**Lint pass** — 3 issues found and fixed:
+- `wiki/evaluation-driven-development.md` — raw source links used straight apostrophe (') while the actual raw filename uses curly apostrophe (’); fixed both links to match the file
+- `wiki/index.md` — `evaluation-driven-development` and `superset-workflow` were never added to the index (orphan pages); added both entries
+- Verified: no untagged code block openings, no broken wiki/raw links, no orphans, all frontmatter valid

@@ -63,6 +63,8 @@ A curated knowledge base for the Claude Certified Architect – Foundations exam
 - [[ai-as-a-judge]] — Subjective evaluation: AI judges score other AI outputs, judge-dependent and context-specific
 - [[preference-models]] — Specialized AI judges trained to predict which response users prefer
 - [[private-model-selection]] — Public benchmarks contaminated; model selection = creating a private leaderboard
+- [[evaluation-driven-development]] — EDD framework: 4 evaluation pillars, model selection workflow, meta-evaluation (Ch4)
+- [[superset-workflow]] — 5-stage manufacturing pipeline for AI coding: trigger/plan/coding/review/merge
 - [[build-vs-buy-ai]] — 7 axes decision framework: data privacy, performance, control, cost for API vs self-host
 - [[tax-preparer]] — Product concept: UG tax assistant with URA regulations moat
 - [[khanmigo-scaling-case-study]] — Khan Academy scaling Khanmigo to 200K: math agent architecture, AI-first org, technical hurdles

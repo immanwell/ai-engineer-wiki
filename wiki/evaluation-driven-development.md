@@ -10,7 +10,7 @@ tags:
 domain: "context-reliability"
 sources:
   - "AI Engineer Chapter 4 (Chip Huyen, 2025).md"
-  - "Chip Huyen's Evaluation-Driven Development (EDD) framework from AI Engineering.md"
+  - "Chip Huyen’s Evaluation-Driven Development (EDD) framework from AI Engineering.md"
 status: stub
 confidence: high
 ---
@@ -24,7 +24,7 @@ Modified: `=dateformat(this.file.mtime, "DDDD, HH:mm")`
 
 **Summary**: EDD is a framework where evaluation definitions lead the entire AI development lifecycle — model selection, design, deployment, and iteration all follow from what "good" means for your specific use case. TDD for AI.
 
-**Sources**: [[raw/AI Engineer Chapter 4 (Chip Huyen, 2025).md|AI Engineering Chapter 4]] · [[raw/Chip Huyen's Evaluation-Driven Development (EDD) framework from AI Engineering.md|Evaluation-Driven Development (EDD) Framework — Medium]]
+**Sources**: [[raw/AI Engineer Chapter 4 (Chip Huyen, 2025).md|AI Engineering Chapter 4]] · [[raw/Chip Huyen’s Evaluation-Driven Development (EDD) framework from AI Engineering.md|Evaluation-Driven Development (EDD) Framework — Medium]]
 
 ---
 

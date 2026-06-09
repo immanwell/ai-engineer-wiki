@@ -19,7 +19,8 @@
       "Bash(grep -h \"\\\\[\\\\[\" wiki/*.md)",
       "Bash(ls *.md)",
       "Bash(grep -n '^\\\\`\\\\`\\\\`$' *.md)",
-      "Bash(python3)"
+      "Bash(python3)",
+      "Bash(python3 -c ' *)"
     ]
   },
   "enableAllProjectMcpServers": true,
