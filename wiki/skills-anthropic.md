@@ -28,6 +28,8 @@ Last Modified: `=dateformat(this.file.mtime, "DDDD, HH:mm")`
 
 Anthropic has shifted focus from building agents to building skills. After launching Claude Code and observing how customers use agents, they identified a critical gap: **agents have intelligence and capabilities but lack the domain expertise needed for real work**. As Barry Zhang put it: "Who do you want doing your taxes? Is it going to be Mahesh, the 300 IQ mathematical genius, or is it Barry, an experienced tax professional?" The answer is always the expert — agents today are brilliant but miss important context upfront and don't learn over time.
 
+**Key realization**: Code is not just one use case — it is the *universal interface to the digital world*. An agent with file system and bash access can generate financial reports, run Python analysis, and produce formatted output without specialized scaffolding. Claude Code, originally conceived as a coding agent, turned out to be a general-purpose agent. The gap was never capability — it was expertise.
+
 See [[agentic-architecture]] for foundational concepts and [[tool-design-mcp]] for the MCP protocol that skills build upon.
 
 ## What Skills Are
@@ -49,10 +51,15 @@ The design philosophy centers on **progressive disclosure**:
 - This keeps the **context window protected** so hundreds or thousands of skills can fit
 - When an agent needs a skill, it reads the full `skill.md` containing core instructions and directory structure
 
-This architecture has already scaled to **thousands of skills within five weeks of launch**, spanning:
-- Foundational skills
-- Partner-built skills (Notion, Browserbase, Cadence)
-- Enterprise skills for Fortune 100 companies (teaching agents about organizational best practices and internal software)
+This architecture has already scaled to **thousands of skills within five weeks of launch**, spanning three categories:
+
+| Category | Examples |
+|----------|---------|
+| **Foundational** | Anthropic document skills (Office file creation/editing), Cadence scientific research skills (EHR analysis, bioinformatics) |
+| **Third-party / product** | Browserbase (Stagehand browser automation), Notion (deep research across a full workspace) |
+| **Enterprise / team-specific** | Fortune 100 internal best practices; developer teams serving tens of thousands of engineers deploying code style and workflow conventions |
+
+Notably, **non-technical workers** in finance, recruiting, accounting, and legal are building skills — early validation that the format is accessible beyond software engineers.
 
 ## Architecture: Skills + MCP
 
@@ -87,9 +94,15 @@ Anthropic draws an analogy to the computing stack:
 
 "We hope that skills can help us open up this layer for everyone," Mahesh said. "This is where we get creative and solve concrete problems for ourselves, for each other, and for the world just by putting stuff in the folder."
 
+## Skills as Transferable Memory
+
+Skills move continuous learning from an aspiration to a concrete mechanism. Because Claude can write skills in a standardized format, anything it records can be **efficiently read by a future version of itself** — knowledge is transferable rather than locked in a session.
+
+This makes skills a more narrowly reliable form of memory than raw retrieval: they capture *procedural knowledge for specific tasks* rather than trying to retain everything. Compare to [[agent-memory]] where episodic/semantic memory is broader but harder to guarantee.
+
 ## Organizational Knowledge Compounding
 
-As skills accumulate organizational knowledge, a new employee on day 30 finds Claude already knows the team's priorities, workflows, and effective practices — creating **compounding value** that extends beyond individual organizations into the broader community.
+As skills accumulate organizational knowledge, a new employee on day 30 finds Claude already knows the team's priorities, workflows, and effective practices — creating **compounding value** that extends beyond individual organizations into the broader community. Skills built by anyone in the external community can also raise the ceiling for your own agents, just as MCP servers built by strangers expand what your agent can connect to.
 
 ## Exam Relevance
 

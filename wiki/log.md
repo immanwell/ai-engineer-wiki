@@ -268,3 +268,10 @@ Append-only record of all wiki operations.
 - `wiki/agentic-architecture.md` — linked to ai-application-architecture.md as the production system view
 - `wiki/prompt-attacks.md` — linked to ai-application-architecture.md for guardrails as an architectural component
 - `wiki/index.md` — added ai-application-architecture entry
+
+## 2026-06-09
+
+**Source re-reviewed**: `anthropic-agents-to-skills.md` (YouTube, Barry Zhang & Mahesh Murag, same video as `https://youtu.be/CEvIs9y1uog`) — already in raw; re-summarized with more detail
+
+**Updated**:
+- `wiki/skills-anthropic.md` — added: code as universal interface + Claude Code as general-purpose agent realization; skills ecosystem breakdown table (foundational/third-party/enterprise); non-technical workers building skills; new "Skills as Transferable Memory" section distinguishing skills from raw retrieval-based memory
