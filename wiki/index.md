@@ -26,6 +26,7 @@ A curated knowledge base for the Claude Certified Architect – Foundations exam
 - [[skills-anthropic]] — Skills as organized knowledge collections, progressive disclosure, MCP integration
 - [[tool-design-mcp]] — 30% of exam — MCP protocol, tool design patterns
 - [[claude-code]] — 20% of exam — CLI tool, hooks, git workflow, MCP integration
+- [[claude-code-loops]] — Four loop types: turn-based, goal-based (/goal), time-based (/loop, /schedule), proactive (dynamic workflows)
 
 ## Supporting Domains
 

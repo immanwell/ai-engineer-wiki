@@ -163,6 +163,19 @@ Claude Code **Auto Mode** runs classifiers over tool calls Claude proposes, dete
 - Used for closing the agent loop — Claude can execute on more systems in a controlled, safe way
 - See [[the-capability-curve]] for full context on how this fits "give the model room to work"
 
+## Loop Patterns
+
+Claude Code work can be structured as **loops** — an agent repeating cycles until a stop condition is met. The `/schedule` and Auto Mode features above are building blocks for these. The Claude Code team defines four types:
+
+| Loop | Trigger | Stop | Primitive |
+|------|---------|------|-----------|
+| Turn-based | User prompt | Claude judges done | Verification skills |
+| Goal-based | Manual prompt | Goal met or turn cap | `/goal` |
+| Time-based | Time interval | You cancel / work done | `/loop`, `/schedule` |
+| Proactive | Event/schedule (no human) | Per-task goal; routine until off | All + dynamic workflows + auto mode |
+
+See [[claude-code-loops]] for the full taxonomy, the `/goal` evaluator-model mechanism, quality maintenance, and token-usage management.
+
 ## Multi-agent
 
 Claude Code supports multi-agent patterns:
@@ -269,6 +282,7 @@ Expected to understand:
 
 ## Related pages
 
+- [[claude-code-loops]] — the four loop types (turn-based, goal-based, time-based, proactive)
 - [[agentic-architecture]] — underlying agentic principles
 - [[tool-design-mcp]] — MCP server development
 - [[claude-certified-architect-foundations-exam-guide]] — exam overview

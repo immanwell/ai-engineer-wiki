@@ -276,6 +276,32 @@ Append-only record of all wiki operations.
 **Updated**:
 - `wiki/skills-anthropic.md` — added: code as universal interface + Claude Code as general-purpose agent realization; skills ecosystem breakdown table (foundational/third-party/enterprise); non-technical workers building skills; new "Skills as Transferable Memory" section distinguishing skills from raw retrieval-based memory
 
+## 2026-07-08 (Loops article)
+
+**Source ingested**: `Getting started with loops (ClaudeDevs).md` (X.com article by @ClaudeDevs, written by delba_oliveira) — exam-domain source (claude-code)
+
+**Pages created**:
+- `claude-code-loops.md` — the four loop types (turn-based, goal-based, time-based, proactive), each by trigger/stop/best-use/token-management; `/goal` evaluator-model mechanism; maintaining code quality; managing token usage; summary table
+
+**Updated**:
+- `wiki/claude-code.md` — added "Loop Patterns" section with type table linking to claude-code-loops.md; added to Related pages
+- `wiki/index.md` — added claude-code-loops entry under Core Domains
+
+**Anki cards**: `ASSETS/ClaudeCert-ClaudeCodeLoops-TechnicalConcepts-2026-07-08.csv` — 39 cards (Question, Answer, Topic; no header; comma delimiter)
+
+**Raw saved**: `Getting started with loops (ClaudeDevs).md`
+
+## 2026-07-08
+
+**Source reviewed**: `theo-browne-rethink-everything.md` (YouTube, Theo Browne, "It's Time To Rethink Everything", summarized via summarize CLI)
+
+**Decision**: Motivational/ambition talk with no exam-domain mapping — did not warrant a standalone page. Added as a light touch instead.
+
+**Updated**:
+- `wiki/junior-engineer-advantage.md` — added "Build Bigger: The Ambition Argument" section citing Theo Browne's thesis (old constraints gone, be more ambitious); added source to frontmatter
+
+**Raw saved**: `theo-browne-rethink-everything.md`
+
 ## 2026-06-10
 
 **Lint pass** — 3 issues found and fixed:

@@ -9,6 +9,7 @@ tags:
 domain: "agentic-architecture"
 sources:
   - "mihail-eric-junior-engineers-crisis.md"
+  - "theo-browne-rethink-everything.md"
 status: stub
 confidence: medium
 ---
@@ -54,6 +55,10 @@ The combination of:
 ...makes junior developers uniquely suited to adopt AI-native skills fastest, even if employment feels harder to obtain initially.
 
 Harvard Business School professor Rem Coning adds that the future belongs to those who can **allocate intelligence effectively** — embedding AI directly into products to remove humans from the loop entirely.
+
+## Build Bigger: The Ambition Argument
+
+Theo Browne makes a complementary case in [[raw/theo-browne-rethink-everything.md|"It's Time To Rethink Everything"]]: AI has removed the old constraints that made large rebuilds impractical, just as cloud computing removed the need to pre-provision servers. His challenge — *"You're not building big enough"* — reinforces the junior advantage: the willingness to attempt projects that feel oversized or "stupid" is now a structural strength, because an agent can rewrite an entire project's language and architecture in a week. Good naivety pairs naturally with this ambition — the developer unconstrained by "how things are done" is best positioned to exploit constraints that no longer exist.
 
 ## Exam Relevance
 
