@@ -276,6 +276,19 @@ Append-only record of all wiki operations.
 **Updated**:
 - `wiki/skills-anthropic.md` — added: code as universal interface + Claude Code as general-purpose agent realization; skills ecosystem breakdown table (foundational/third-party/enterprise); non-technical workers building skills; new "Skills as Transferable Memory" section distinguishing skills from raw retrieval-based memory
 
+## 2026-07-12
+
+**Source ingested**: `What Is Docling (YouTube).md` (YouTube, summarized via summarize CLI)
+
+**Decision**: Tool-specific but illustrates transferable RAG concepts — extended existing pages rather than creating a standalone Docling page (same approach as the Zilliz vector-index doc). No Anki cards (per user request).
+
+**Updated**:
+- `wiki/rag-retrieval.md` — added "Structure-Aware Chunking & Multimodal RAG" subsection (hierarchical document model, structure-aware chunking preserving parent context, multimodal RAG table, provenance metadata + link to prompt-attacks, schema/Pydantic extraction, MCP server mention); added Docling to sources
+- `wiki/tool-design-mcp.md` — added "Real-world example: Docling MCP server" under Server patterns
+- `wiki/index.md` — updated rag-retrieval description to mention structure-aware/multimodal chunking
+
+**Raw saved**: `What Is Docling (YouTube).md`
+
 ## 2026-07-08 (Loops article)
 
 **Source ingested**: `Getting started with loops (ClaudeDevs).md` (X.com article by @ClaudeDevs, written by delba_oliveira) — exam-domain source (claude-code)

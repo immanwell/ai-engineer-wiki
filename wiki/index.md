@@ -57,7 +57,7 @@ A curated knowledge base for the Claude Certified Architect – Foundations exam
 - [[rlhf]] — Reinforcement Learning from Human Feedback: post-training alignment, SFT + preference finetuning
 - [[scaling-laws]] — Parameters, training tokens, FLOPs: the 3 numbers that define model scale
 - [[transformer-limitations]] — Context limits, hallucinations, symbolic reasoning gaps, and agentic implications
-- [[rag-retrieval]] — RAG: 2-step retrieve-then-generate pattern, retriever types (term vs embedding-based), vector search foundations
+- [[rag-retrieval]] — RAG: 2-step retrieve-then-generate, retriever types, vector search, chunking (incl. structure-aware/multimodal via Docling)
 - [[agent-memory]] — Agent memory systems: working, episodic, semantic memory; reflection and progress tracking
 - [[foundation-model-evaluation]] — Evaluation as the first step in systematic AI engineering (Ch3 + Ch4 complete)
 - [[functional-correctness]] — Exact evaluation: binary pass/fail on whether AI produces correct output

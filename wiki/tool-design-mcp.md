@@ -115,6 +115,10 @@ When a tool is called via MCP:
 
 Errors should follow JSON-RPC error codes and include a message.
 
+### Real-world example: Docling MCP server
+
+**Docling** ships an MCP server that plugs into desktop clients (Claude Desktop, LM Studio, Cursor) over MCP. Once connected, any tool-calling agent can request document conversions — PDF/Word/PowerPoint/image → structured Markdown or JSON — in natural language, with the server handling the transformation. It's a clean example of an MCP server wrapping a single, well-scoped capability (document parsing) that many different agents can reuse. See [[rag-retrieval]] for how this feeds structure-aware chunking in RAG pipelines.
+
 ## MCP in Claude Code
 
 Claude Code ships with built-in MCP support:

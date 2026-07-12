@@ -12,6 +12,7 @@ sources:
   - "AI Engineer Chapter 6 (Chip Huyen, 2025).md"
   - "An Introduction to Vector Embeddings_ What They Are and How to Use Them.md"
   - "A Beginner's Guide to Website Chunking and Embedding for Your RAG Applications.md"
+  - "What Is Docling (YouTube).md"
 status: stable
 confidence: high
 ---
@@ -166,6 +167,25 @@ A 2,000-word Wikipedia article split recursively at chunk_size=512 produces ~67 
 - **Too small**: loses context, misses broader meaning
 - **Too large**:稀释 relevant information, may include noise
 - **512 tokens** is a common starting point for LLM contexts — adjust based on retrieval accuracy
+
+### Structure-Aware Chunking & Multimodal RAG
+
+The chunking strategies above operate on raw text. A more advanced approach chunks by the document's *actual structure*. Tools like **Docling** ([[raw/What Is Docling (YouTube).md|an open-source, MIT-licensed framework]]) first parse unstructured files (PDFs, Word, PowerPoint, scanned images, spreadsheets) into a **hierarchical document model** — element types, headings, and per-element metadata — then chunk from that structure.
+
+**Structure-aware chunking** splits by sections, tables, and captions while **preserving parent context** (e.g. keeping the section title with the chunk). This produces more cohesive chunks and stronger retrieval signals than fixed-size splitting, because a chunk never gets orphaned from the heading that gives it meaning.
+
+Two related capabilities this unlocks:
+
+| Capability | What It Does | Why It Matters |
+|-----------|--------------|----------------|
+| **Multimodal RAG** | Preserves images and tables; figures can be enriched with text descriptions for retrieval | Retrieval works over more than plain text — diagrams and tables become searchable |
+| **Provenance metadata** | Each element carries page + bounding-box info | Retrieved results can be traced back visually to their exact source location |
+
+**Provenance ties to security**: knowing exactly where a retrieved chunk came from helps audit RAG outputs and investigate [[prompt-attacks|indirect prompt injection]] — you can trace a suspicious instruction back to the source document and page.
+
+**Schema-based extraction**: beyond chunking, these parsers can extract specific fields (e.g. invoice number, price) into a validated schema or Pydantic model — adding type safety to data pulled from otherwise unstructured files. The parser (Docling) can also be exposed as an [[tool-design-mcp|MCP server]], letting any tool-calling agent request document conversions in natural language.
+
+> The real challenge in RAG or agentic AI isn't building the agent, but curating the knowledge and the context behind it.
 
 ## RAG vs Finetuning
 
